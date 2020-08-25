@@ -215,6 +215,7 @@ var playerInfo = {
     } 
     else {
       window.alert("You don't have enough money!");
+      shop();
     }
   },
   upgradeAttack: function() {
@@ -225,6 +226,7 @@ var playerInfo = {
     } 
     else {
       window.alert("You don't have enough money!");
+      shop();
     }
   }
 };
